@@ -1,0 +1,15 @@
+#input-txt {
+    display: block;
+    height: 20vh;
+    width: 90%;
+}
+
+#translate-btn {
+    margin: 2rem 0;
+}
+
+#output-txt {
+    height: 20vh;
+    width: 90%;
+    border: 1px solid black;
+}
