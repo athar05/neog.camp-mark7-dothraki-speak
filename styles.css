@@ -8,7 +8,6 @@ body {
   height: 20vh;
   width: 90%;
   margin: auto;
-  border-radius: 0.5rem;
 }
 
 #translate-btn {
@@ -16,15 +15,21 @@ body {
   height: 2rem;
   background-color: #7f5539;
   color: white;
+  border-radius: 0.5rem;
   border: 1px solid black;
-  border-radius: 5px;
+  align-items: center;
 }
 
 #output-txt {
-  background-color: white;
   height: 20vh;
   width: 90%;
   border: 1px solid #767676;
   margin: auto;
-  border-radius: 0.5rem;
+  background-color: white;
+}
+
+#translate-btn:hover {
+  border: none;
+  font-weight: bold;
+  background-color: #9c6644;
 }
