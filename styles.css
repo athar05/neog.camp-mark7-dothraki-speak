@@ -1,15 +1,30 @@
+body {
+  background-color: #ddb892;
+  text-align: center;
+}
+
 #input-txt {
-    display: block;
-    height: 20vh;
-    width: 90%;
+  display: block;
+  height: 20vh;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.5rem;
 }
 
 #translate-btn {
-    margin: 2rem 0;
+  margin: 2rem 0;
+  height: 2rem;
+  background-color: #7f5539;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 #output-txt {
-    height: 20vh;
-    width: 90%;
-    border: 1px solid # 767676;
+  background-color: white;
+  height: 20vh;
+  width: 90%;
+  border: 1px solid #767676;
+  margin: auto;
+  border-radius: 0.5rem;
 }
